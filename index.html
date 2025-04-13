@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <input type="text" id="search-input" placeholder="Search notes...">
+            </header>
+
+        <main class="notes-grid" id="notes-grid">
+            </main>
+
+        <button class="add-note-btn" id="add-note-btn">+</button>
+
+        <div id="note-modal" class="modal">
+             <div class="modal-content">
+                 <textarea id="note-input" placeholder="Write your note here..."></textarea>
+                 <button id="save-note-btn">Save Note</button>
+                 <button id="cancel-note-btn">Cancel</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
